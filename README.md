@@ -42,6 +42,7 @@
   _id: ObjectId('507f1f77bcf86cd799439011'),
   title: 'Budget',
   budgetAmount: 3000,
+  createdAt: "2024-08-22T08:35:52.692Z
 }
 ```
 
@@ -59,6 +60,7 @@
   description: 'potatoes',
   budget: ObjectId('507f1f77bcf86cd799439011'), // Monthly Spending
   category: ObjectId('543d2c72gsb23cd657438921') // Groceries
+  createdAt: "2024-08-22T08:35:52.692Z
 }
 ```
 
@@ -75,6 +77,7 @@
 {
   _id: '543d2c72gsb23cd657438921',
   title: 'Groceries',
+ createdAt: "2024-08-22T08:35:52.692Z
 }
 ```
 
@@ -101,8 +104,8 @@
   the title of the categories.
 * create a minimum of 4 categories so that when you create your expenses, you
   can assign where they go!
-* example of categories could be: `Food/Dining` `Gas/Auto` `Date Nights`
-  `Mortgage`
+* example of categories could be: `Grocery` `College` `Clubbing`
+  `Rent`
 
 ### `'/expense'`
 
