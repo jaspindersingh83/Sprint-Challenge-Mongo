@@ -115,7 +115,7 @@
 * your expense route should also have a `'get'` method that returns all the
   expenses with the populated data.
 
-## Stretch Goal - Aggregation
+##  Aggregation
 
 #### A Note about Aggregation
 
