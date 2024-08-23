@@ -137,7 +137,7 @@
   will be your best friend. And you'll also want to consider that you'll need to
   be querying for the total budget.
 
-### Category Spending Aggregation `'/expenses?aggregatedBy=category'`
+### Category Spending Aggregation `'/expensesBycategory'`
 
 * With this route, we want to see a list of the categories and what you've spent
   so far.
